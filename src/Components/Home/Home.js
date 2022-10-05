@@ -1,9 +1,11 @@
 import React from "react";
+import SingleNews from "../SingleNews/SingleNews";
 
-const Home = () => {
+const Home = ({ news }) => {
+  console.log(typeof news);
   return (
     <div>
-      <h3>home</h3>
+      <SingleNews />
     </div>
   );
 };
